@@ -25,11 +25,11 @@
 - size 返回存储数据条数
 
 ## 项目配置
-`cd build`
-`cmake ..`
-`make`
-`./skiplist`
+`cd build`  
+`cmake ..`  
+`make`  
+`./skiplist`  
 
 ## 压力测试
-`sh stress_test.sh  //自动化执行 分别测试随机读写情况下10万条、50万条和100万条数据的耗时`
-`stress/stress_test n`  //手动指定数据规模执行 n为测试数据条数
+`sh stress_test.sh  //自动化执行 分别测试随机读写情况下10万条、50万条和100万条数据的耗时`  
+`stress/stress_test n`  //手动指定数据规模执行 n为测试数据条数  
